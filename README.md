@@ -11,7 +11,7 @@ Het prototype is gebouwd en getest op 64-bits Windows- en 64-bits Linux-systemen
 Voor deze demo dienen een aantal zaken geïnstalleerd te zijn op de omgeving waarin deze demo wordt uitgevoerd.
 
 - Python versie 3.6 	(https://www.python.org/downloads/release/python-364/)
-	 Pip versie 10.0  		(https://pip.pypa.io/en/stable/installing/)
+- Pip versie 10.0  		(https://pip.pypa.io/en/stable/installing/)
 
 
 
@@ -83,5 +83,5 @@ plt.show()
 
 ![Illustratie van het plot](ApplicationWindow.png)
 
-De uitkomst van de code zijn de bovenstaande diagrammen. Het linker diagram is gebaseerd op de ground truth classification. De ground truth classification is de benaming voor de resultaten die gegeven zijn door de dataset en dus 100% kloppen. Het rechter diagram is gebaseerd op het model wat het k-means algoritme gebruikt. Zoals te zien is worden bepaalde punten bij elkaar gegroepeerd. Deze groepen worden met elkaar onderscheiden door de kleur. Elk kleurtje is een andere groep.Er valt te zien dat het verschil tussen de ground truth classification en de k-means classification is dat bepaalde punten eigenlijk bij een andere groep horen. Zo zie je dat je bij de k-means classification en ground truth classification er bij de punten in het midden en rechtsboven een verschil is in welke groep het zit.
+De resultaten van de code staan in de bovenstaande diagrammen. Het linker diagram is gebaseerd op de ground truth classification. De ground truth classification is de benaming voor de resultaten die gegeven zijn door de dataset en dus 100% kloppen. Het rechter diagram is gebaseerd op het model wat het k-means algoritme gebruikt. Zoals te zien is worden bepaalde punten bij elkaar gegroepeerd. Deze groepen worden met elkaar onderscheiden door de kleur. Elk kleurtje is een andere groep.Er valt te zien dat het verschil tussen de ground truth classification en de k-means classification is dat bepaalde punten eigenlijk bij een andere groep horen. Zo zie je dat je bij de k-means classification en ground truth classification er bij de punten in het midden en rechtsboven een verschil is in welke groep het zit.
 
