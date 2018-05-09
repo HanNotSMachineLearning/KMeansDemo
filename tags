@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/4dbeb0be/
+clustering	test.py	/^clustering = KMeans(n_clusters=3, random_state=5)$/;"	v
+color_theme	test.py	/^color_theme = np.array(['darkgray', 'lightsalmon', 'powderblue'])$/;"	v
+iris	test.py	/^iris = datasets.load_iris()$/;"	v
+iris_df	test.py	/^iris_df = pd.DataFrame(iris.data)$/;"	v
+np	test.py	/^import numpy as np$/;"	I
+pd	test.py	/^import pandas as pd$/;"	I
+plt	test.py	/^import matplotlib.pyplot as plt$/;"	I
+x	test.py	/^x = scale(iris.data)$/;"	v
