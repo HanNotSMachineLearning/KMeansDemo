@@ -79,7 +79,7 @@ plt.show()
 
 
 
-### Applicatie resultaat
+### Resultaat van de applicatie
 
 ![Illustratie van het plot](ApplicationWindow.png)
 
