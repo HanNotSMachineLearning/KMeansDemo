@@ -83,5 +83,9 @@ plt.show()
 
 ![Illustratie van het plot](ApplicationWindow.png)
 
-De resultaten van de code staan in de bovenstaande diagrammen. Het linker diagram is gebaseerd op de ground truth classification. De ground truth classification is de benaming voor de resultaten die gegeven zijn door de dataset en dus 100% kloppen. Het rechter diagram is gebaseerd op het model wat het k-means algoritme gebruikt. Zoals te zien is worden bepaalde punten bij elkaar gegroepeerd. Deze groepen worden met elkaar onderscheiden door de kleur. Elk kleurtje is een andere groep.Er valt te zien dat het verschil tussen de ground truth classification en de k-means classification is dat bepaalde punten eigenlijk bij een andere groep horen. Zo zie je dat je bij de k-means classification en ground truth classification er bij de punten in het midden en rechtsboven een verschil is in welke groep het zit.
+De resultaten van de code staan in de bovenstaande diagrammen. Het linker diagram is gebaseerd op de ground truth classification. De ground truth classification is de benaming voor de resultaten die gegeven zijn door de dataset en dus 100% kloppen. Het rechter diagram is gebaseerd op het model wat het k-means algoritme gebruikt. Zoals te zien is worden bepaalde punten bij elkaar gegroepeerd. Deze groepen worden met elkaar onderscheiden door de kleur. Elk kleurtje is een andere groep. Er valt te zien dat het verschil tussen de ground truth classification en de k-means classification is dat bepaalde punten eigenlijk bij een andere groep horen. Zo zie je dat je bij de k-means classification en ground truth classification er bij de punten in het midden en rechtsboven een verschil is in welke groep het zit.
 
+Het k-means algoritme is niet bruikbaar omdat het geen ziekte kan retourneren die gebaseerd is op de dataset die je levert.
+
+- K-means werkt zonder gelabelde data, onze data is sowieso gelabeld
+- K-means kan voor onze casus geen gewenst resultaat (een ziekte) retourneren.
